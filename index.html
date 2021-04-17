@@ -10,103 +10,92 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@200&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="style.css">
+
      
-    <style>
     
-       body {
-        font-family: 'Montserrat', sans-serif;
-        font-weight:lighter;
-        line-height: 150%;
-        color:#363636;
-        background-color:#DCDCDC;
-        text-align: center;                
-        }
-
-        h2 { 
-            font-family: 'Nunito', sans-serif;
-            font-size:2em;
-               
-            
-        }
-
-        #foto {
-            border-radius: 50%;
-        }
-
-        
-        
-        .destaques {
-            background-color: #ff4040;
-            line-height: 200%;
-            color: #fff;
-
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-         /*vi no https://www.w3schools.com/css/css_list.asp */
-            background-color: #FFBF40;
-            padding: 20px;
-
-        }
-
-        .destaque_lista {
-            font-size: 110%;
-            line-height: 30px;
-            color:#708090;
-        }
-
-        .acesse {
-            background-color: #33CCCC;
-        }
-    
-
-    </style>
 </head>
 <body>
-    <img src="foto_quadrada.jpg" width="300px" id="foto">
-    <h1>Meu Portfólio</h1>
-    <h2 id="eu">Juliana de Assis Fernandes</h2>
-    <h3>Estudante de Desenvolvimento Web na Trybe</h3>
-    <p> Sou <strong>mineira</strong>, uai, tenho 30 anos e sou apaixonada pela cidade em que moro: <strong>BH</strong>! <br> Me formei em <strong>Publicidade e Propaganda</strong> pela UFMG, mas me apaixonei por <strong>Programação</strong> e pelo <strong>Mercado Financeiro</strong>, por isso me matriculei na Trybe para mudar a minha jornada.</p>
     
-    <h3 class="destaques" id="habilidades">Minhas habilidades - Soft Skills</h3>
     
-    <ul>
-        <li class="destaque_lista"><strong>Empática</strong></li>
-        <li>Paciente</li>
-        <li>Estudiosa</li>
-        <li class="destaque_lista"><strong>Criativa</strong></li>
-        <li>Otimista</li>
-        <li>Comprometida</li>
-        <li class="destaque_lista"><strong>Determinada</strong></li>
-    </ul>
-   
-    <h3 class="destaques" id="tecnicas">Habilidades Técnicas</h3>
-    <ul>
-        <li>PhotoShop - <strong>intermediário</strong></li>
-        <li>Illustrator - <strong>avançado</strong></li>
-        <li>LightRoom - <strong>intermediário</strong></li>
-        <li>Git - <strong>intermediário</strong></li>
-        <li>Inglês - <strong>avançado</strong></li>
-        <li>HTML - <strong>intermediário</strong></li>
-    </ul>
-    
-    <h3 class= "destaques" id="dica">#FicaDica</h3>
-    <p>O que é um podcast se não um <i>blog falado</i>? <br>
-        Por este motivo, a minha indicação é o podcast <a href="https://open.spotify.com/show/36Ys2tHVkyfC4TyFyXButj" target="_blank">A loucura nossa de cada dia</a>, do psicanalista Guilherme Facci. <br> Neste podcast, Guilherme traz uma reflexão sobre as situações do dia a dia e a psicanálise em uma linguagem simples e fácil de entender.</p>
-    
-    <h3 class="destaques">Acesse Novamente:</h3>
-    <ul>
-    <li> <a href="#foto">Minha Foto</a></li>
-    <li> <a href="#eu">Quem Sou Eu</a></li>
-    <li> <a href="#habilidades">Minhas Habilidades</a></li>
-    <li> <a href="#tecnicas">Habilidades Técnicas</a></li>
-    <li> <a href="#dica">#FicaDica</a></li>
-    </ul>
+   <div class="max_width">
+       <div class="menu_nome">
+           <div class="menu">
+                <h1>Meu Portfólio</h1>
+                <ul class="lista_menu">
+                    <li> <a href="#foto">Minha Foto</a></li>
+                    <li> <a href="#eu">Quem Sou Eu</a></li>
+                    <li> <a href="#habilidades">Minhas Habilidades</a></li>
+                    <li> <a href="#tecnicas">Habilidades Técnicas</a></li>
+                    <li> <a href="#dica">#FicaDica</a></li>
+                </ul>
+           </div>
+            
 
+        
+        </div>
+
+
+        <div class="nome">
+            <h2 id="eu">Juliana de Assis Fernandes</h2>
+
+
+        </div>
+
+    
+       
+        <div class="foto_info">
+            <div class="foto">
+                <img src="foto_quadrada.jpg" width="250px" id="foto">
+            </div>
+    
+            <div class="info">
+            
+                
+                <h3>Estudante de Desenvolvimento Web na Trybe</h3>
+                <p> Sou <strong>mineira</strong>, uai, tenho 30 anos e sou apaixonada pela cidade em que moro: <strong>BH</strong>! <br> Me formei em <strong>Publicidade e Propaganda</strong> pela UFMG, mas me apaixonei por <strong>Programação</strong> e pelo <strong>Mercado Financeiro</strong>, por isso me matriculei na Trybe para mudar a minha jornada.</p>
+            </div>
+        </div>
+               
+        <div class="habilidades">
+            <h3 class="destaques" id="habilidades">Minhas habilidades - Soft Skills</h3>
+        
+            <ul>
+                <li class="destaque_lista"><strong>Empática</strong></li>
+                <li>Paciente</li>
+                <li>Estudiosa</li>
+                <li class="destaque_lista"><strong>Criativa</strong></li>
+                <li>Otimista</li>
+                <li>Comprometida</li>
+                <li class="destaque_lista"><strong>Determinada</strong></li>
+            </ul>
+        </div>
+    
+   
+        <div class="tecnicas">
+            <h3 class="destaques" id="tecnicas">Habilidades Técnicas</h3>
+            <ul>
+                <li>PhotoShop - <strong>intermediário</strong></li>
+                <li>Illustrator - <strong>avançado</strong></li>
+                <li>LightRoom - <strong>intermediário</strong></li>
+                <li>Git - <strong>intermediário</strong></li>
+                <li>Inglês - <strong>avançado</strong></li>
+                <li>HTML - <strong>intermediário</strong></li>
+            </ul>
+
+
+        </div>
+        
+        <div class="dica">
+            <h3 class= "destaques" id="dica">#FicaDica</h3>
+            <p>Como lidar com as nossas emoções no contexto atual? Existe uma maneira de equilibrar o mundo externo e o interno?<br>
+                Para quem, como eu, gosta de refletir sobre essas questões, a minha indicação é o podcast <a href="https://open.spotify.com/show/36Ys2tHVkyfC4TyFyXButj" target="_blank">A loucura nossa de cada dia</a>, do psicanalista Guilherme Facci. <br> Neste podcast, Guilherme traz uma reflexão sobre as situações do dia a dia e a psicanálise em uma linguagem simples e fácil de entender.
+            </p>
+
+        </div>
+        
+    </div>
+        
 
 </body>
 </html>

@@ -1,0 +1,169 @@
+/* menu horizontal
+align-items: center;
+background-color: #fff;
+position:fixed;
+left: 0%;
+top: 0%;
+right: 0%;
+bottom: auto;
+z-index: 999;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+padding-right: 30px;
+padding-left: 30px;
+box-shadow:0 0 1px 2px rgb(24 26 24 / 15%)*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    line-height: 150%;
+    background-color:#000;
+    text-align: center; 
+    margin:0;               
+}
+
+.max_width {
+max-width:80%; 
+margin: auto;
+box-shadow:0 0 1px 2px rgb(24 26 24 / 15%);
+
+
+}
+
+
+.menu {
+    align-items: center;
+    background-color: #fff;
+    position:fixed;
+    left:0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 999;  
+    display: -ms-flexbox;
+    display: flex;    
+    box-shadow:0 0 1px 2px rgb(24 26 24 / 15%);
+    margin-bottom: 30px;
+    justify-content: center;
+
+    /*Código do .menu copiado do site https://betrybe-0.webflow.io/ */
+}
+
+.lista_menu {
+    background-color: #fff;
+    color:#4E5978;
+}
+.menu li {
+    display:inline-block;
+    background-color: #fff;
+
+}
+li {
+    margin-left: 30px;    
+}
+
+a {
+    text-decoration:none;
+    font-weight: bold;    
+}
+
+a:hover{
+    color:#308697;
+}
+
+.nome {
+    text-align: center;
+    overflow-y: auto;
+    padding-top: 60px;
+    background-color: #D46671;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;    
+}
+
+.foto_info {
+    display:inline-block;
+    background-color:#363636;;
+}
+
+.foto {    
+    max-width: 40%;
+    float:left;    
+}
+
+.info {
+    float:left;
+    max-width: 60%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+    color: #FFF;  
+}
+
+h3 {
+    margin:0;
+}
+
+.habilidades {    
+    justify-content:center;
+    display: block;
+    margin:auto;
+    padding-bottom: 10px;
+}
+
+.destaques {
+        
+        line-height: 200%;
+        color: #fff;
+        justify-content: center;
+        margin-top: -10px;
+
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:#363636;
+        padding: 20px;
+        color:#fff;
+
+}
+
+.destaque_lista {
+        
+        font-size: 110%;
+        line-height: 30px;
+        color:#E79C63;
+        
+}
+
+.tecnicas {
+    padding-bottom: 10px;
+}
+
+.dica {
+    padding-bottom: 20px;
+    background-color: #363636;
+    color:#fff;
+}
+
+.dica a{
+    color:#D46671;
+}
+
+#habilidades {
+    background-color: #308697;
+}
+
+#tecnicas {
+    background-color: #4E5978;    
+}
+
+#dica {    
+    background-color: #E79C63;
+}
+    
+   
